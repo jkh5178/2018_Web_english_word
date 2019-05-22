@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script" rel="stylesheet">
+    <style>
+      body,
+      html {
+        font-family: 'Nanum Pen Script', cursive;
+        font-size:50px;
+        height: 100%
+        margin: 0;
+        color: #ffffff;
+        background-image: url('https://ncd.nl/wp-content/uploads/2018/05/chalkboard.jpg');
+        background-size: 95%;
+      }
+      input.underline {
+        font-family: 'Nanum Pen Script', cursive;
+        border:1px solid white;
+        border-left-width:0;
+        border-right-width:0;
+        border-top-width:0;
+        border-bottom-width:1;
+        margin:10px;color: #ffffff;
+        font-size:30px;
+        background-color:transparent;
+      }
+
+
+    </style>
+  </head>
+
+  <body>
+
+    <form action="login.php" method="post" style="text-align:center; padding-top:20%;">
+      ID: <input name="ID" type="text" size="50" class="underline">
+      <br />
+      PW: <input name="PW" type="password" size="50" class="underline">
+      <br />
+      <input type="submit" value="login" style="margin:10px;margin-left:50%;  color: #ffffff;font-size: 25px; cursor: pointer; background-color:transparent;">
+      <input type="submit" formaction="creatform.php" value="creat" style="margin:10px;margin-left:72%;  color: #ffffff;font-size: 25px; cursor: pointer; background-color:transparent;">
+    </form>
+
+  </body>
+
+</html>
